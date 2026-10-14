@@ -9,10 +9,34 @@ body {
 
 }
 
+p {
+
+    color: rgb(20, 20, 138);
+
+}
+
 a:focus-visible {
     
     outline: 3px solid #9c3a00; 
     
     outline-offset: 3px; 
+
+}
+
+a:hover {
+
+    text-decoration: underline 2px;
+
+}
+
+.class-example {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#id-example {
+
+    border: solid black 3px;
 
 }
